@@ -1,0 +1,56 @@
+/* Coin.css */
+.table-container {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-bottom: 3rem;
+}
+
+.table-header {
+  background-color: #f5f5f5;
+}
+
+.table-cell {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.table-row:nth-of-type(odd) {
+  background-color: #f9f9f9;
+}
+
+.table-row img {
+  width: 20px;
+}
+/* Coin.css */
+.search-input {
+  width: 100%;
+  max-width: 899px;
+  padding: 10px 15px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.search-input::placeholder {
+  color: #aaa;
+}
+
+.search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+.percent-change.positive {
+  color: #4caf50;
+  background-color: #e8f5e9;
+}
+
+.percent-change.negative {
+  color: #f44336;
+  background-color: #ffebee;
+}

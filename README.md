@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# پروژه قیمت ارزهای دیجیتال به صورت آنلاین
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+این پروژه یک وب‌سایت ساده برای مشاهده قیمت ارزهای دیجیتال به صورت آنلاین است. شما می‌توانید قیمت ارزهای مختلف را به صورت لحظه‌ای مشاهده کنید و از تغییرات آنها مطلع شوید.
 
-## Available Scripts
+## ویژگی‌ها
 
-In the project directory, you can run:
+- مشاهده قیمت لحظه‌ای ارزهای دیجیتال
+- قابلیت سرچ ارز دلخواه
+- رابط کاربری ساده و کاربرپسند
+- استفاده از API برای دریافت اطلاعات قیمت
 
-### `npm start`
+## تصاویر پروژه
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+در این بخش شما می‌توانید تصاویر پروژه خود را اضافه کنید. برای افزودن تصویر، می‌توانید از کد زیر استفاده کنید:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![ تصویر پروژه قیمت لحظه ای ارز دیجیتال ](./public/images/image.png)
 
-### `npm test`
+## نصب و راه‌اندازی
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+برای اجرای این پروژه، مراحل زیر را دنبال کنید:
 
-### `npm run build`
+1. ابتدا مخزن را کلون کنید:
+    ```bash
+    git clone https://github.com/maswd/CryptoPriceTracker.git
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. وارد پوشه پروژه شوید:
+    ```bash
+    cd CryptoPriceTracker
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. وابستگی‌ها را نصب کنید:
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. پروژه را اجرا کنید:
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+## استفاده از API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+برای دریافت قیمت ارزهای دیجیتال، این پروژه از یک API عمومی استفاده می‌کند. شما می‌توانید API دلخواه خود را در فایل پیکربندی پروژه تنظیم کنید.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## مشارکت
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ما از مشارکت‌های شما استقبال می‌کنیم! لطفاً برای مشارکت در این پروژه مراحل زیر را دنبال کنید:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. مخزن را فورک کنید
+2. شاخه‌ای برای ویژگی جدید یا رفع اشکال ایجاد کنید (`git checkout -b feature/NewFeature`)
+3. تغییرات خود را کامیت کنید (`git commit -m 'Add some NewFeature'`)
+4. شاخه خود را پوش کنید (`git push origin feature/NewFeature`)
+5. درخواست مرج دهید
 
-## Learn More
+## مجوز
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+این پروژه تحت مجوز MIT منتشر شده است. برای اطلاعات بیشتر فایل LICENSE را مشاهده کنید.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## تماس با ما
 
-### Code Splitting
+اگر سوالی دارید یا نیاز به پشتیبانی دارید، لطفاً با ما تماس بگیرید:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- ایمیل: alone.3303@example.com
+- تلگرام: [maswd13](https://t.me/maswd13)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+متشکریم که از پروژه ما استفاده می‌کنید!
